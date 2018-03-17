@@ -23,23 +23,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical|center_horizontal"
+            android:fontFamily="serif"
             android:text="@string/app_name"
             android:textAlignment="center"
             android:textColor="@color/blue"
             android:textSize="24sp"
-            android:textStyle="bold"
-            android:fontFamily="serif"
-            />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        >
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/c_key"
@@ -47,9 +45,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/red"
+            android:onClick="playC"
             android:text="@string/c"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/d_key"
@@ -59,9 +57,9 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:background="@color/orange"
+            android:onClick="playD"
             android:text="@string/d"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/e_key"
@@ -71,9 +69,9 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:background="@color/yellow"
+            android:onClick="playE"
             android:text="@string/e"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/f_key"
@@ -83,9 +81,9 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:background="@color/green"
+            android:onClick="playF"
             android:text="@string/f"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/g_key"
@@ -95,9 +93,9 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@color/turquoise"
+            android:onClick="playG"
             android:text="@string/g"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/a_key"
@@ -107,9 +105,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
             android:background="@color/blue"
+            android:onClick="playA"
             android:text="@string/a"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
         <Button
             android:id="@+id/b_key"
@@ -119,9 +117,9 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:background="@color/purple"
+            android:onClick="playB"
             android:text="@string/b"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
 
     </LinearLayout>
 
